@@ -1,0 +1,10 @@
+node{
+stage('check out')
+{
+   echo "Messgae from check out stage"
+}
+stage('Bazel build')
+{
+   echo "Messgae from bazel build stage"
+}
+}
